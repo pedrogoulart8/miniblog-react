@@ -5,4 +5,46 @@
   .register p {
     color: #aaa;
   }
+
+  @media (max-width:992px) {
+
+    .register h1{
+      font-size: 1.5em;
+    }
   
+    .register p{
+      font-size: 0.8em;
+      
+    }
+  
+    span{
+      font-size: 0.8;
+      margin-top: 1em;
+    }
+  
+    input{
+      font-size: 0.7;
+    }
+  }
+  
+  @media (max-width:576px) {
+
+    .register h1{
+      font-size: 1.2em;
+    }
+  
+    .register p{
+      font-size: 0.8em;
+      
+    }
+  
+    span{
+      font-size: 0.8;
+      margin-top: 1em;
+    }
+  
+    input{
+      font-size: 0.7;
+    }
+  
+  }

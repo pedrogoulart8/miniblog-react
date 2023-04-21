@@ -65,7 +65,7 @@ const CreatePost = () => {
       <h2>Criar Post</h2>
       <p>Compartilhe suas historias</p>
 
-      <form onSubmit={handleSubmit}>
+      <form onSubmit={handleSubmit} className={styles.form_create}>
         <label>
           <span>Titulo:</span>
           <input type="text"

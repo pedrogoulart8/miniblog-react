@@ -21,3 +21,20 @@
   max-width: 100%;
   margin-bottom: 1em;
 }
+
+@media (max-width:992px) {
+
+  .edit_post h2{
+    font-size: 1.5em;
+  }
+
+}
+
+@media (max-width:576px) {
+
+  .edit_post h2{
+    font-size: 1.2em;
+  }
+
+
+}

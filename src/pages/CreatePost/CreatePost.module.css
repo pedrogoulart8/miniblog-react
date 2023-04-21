@@ -10,3 +10,55 @@
     color: #aaa;
     margin-bottom: 2em;
   }
+
+  @media (max-width:992px){
+
+    .create_post h2 {
+      font-size: 1.5em;
+    }
+    
+    .create_post p {
+      
+      font-size: 1em;
+  
+    }
+  
+    span{
+      font-size: 1em;
+    }
+  
+    input{
+      font-size: 0.8em;
+    }
+  
+    textarea{
+      font-size: 0.8em;
+    }
+  
+  }
+  
+@media (max-width:576px){
+
+  .create_post h2 {
+    font-size: 1.2em;
+  }
+  
+  .create_post p {
+    
+    font-size: 0.8em;
+
+  }
+
+  span{
+    font-size: 0.8em;
+  }
+
+  input{
+    font-size: 0.7em;
+  }
+
+  textarea{
+    font-size: 0.7em;
+  }
+
+}

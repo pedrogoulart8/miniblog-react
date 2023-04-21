@@ -114,3 +114,20 @@ button[disabled] {
   padding: 5px;
   border-radius: 5px;
 }
+
+
+@media (max-width:992px){
+  .btn{
+    width: 100px;
+    padding: 8px 12px;
+    font-size: 0.9em;
+  }
+}
+
+@media (max-width:576px){
+  .btn{
+    width: 90px;
+    padding: 7px 10px;
+    font-size: 0.8em;
+  }
+}

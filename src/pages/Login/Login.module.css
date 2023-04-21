@@ -1,7 +1,51 @@
 .login {
-    text-align: center;
+  text-align: center;
+}
+
+.login p {
+  color: #aaa;
+}
+
+
+@media (max-width:992px) {
+
+  .login h1 {
+    font-size: 1.5em;
   }
-  
+
   .login p {
-    color: #aaa;
+    font-size: 0.8em;
+
   }
+
+  span {
+    font-size: 0.8;
+    margin-top: 1em;
+  }
+
+  input {
+    font-size: 0.7;
+  }
+}
+
+@media (max-width:576px) {
+
+  .login h1 {
+    font-size: 1.2em;
+  }
+
+  .login p {
+    font-size: 0.8em;
+
+  }
+
+  span {
+    font-size: 0.8;
+    margin-top: 1em;
+  }
+
+  input {
+    font-size: 0.7;
+  }
+
+}

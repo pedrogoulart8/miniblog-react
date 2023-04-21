@@ -18,3 +18,61 @@
 .tags span {
     font-weight: bold;
 }
+
+img{
+    max-width: 900px;
+}
+
+
+
+@media (max-width:992px) {
+
+    h1{
+        font-size: 2em;
+    }
+
+    .post_container h3 {
+        font-size: 1em;
+
+    }
+
+    p{
+        font-size: 1.1em;
+    }
+    
+    img{
+        max-width: 500px;
+    }
+
+    .tags p {
+        font-size: 1em;
+    }
+    
+
+}
+
+
+@media (max-width:576px) {
+
+    h1{
+        font-size: 1.5em;
+    }
+
+    .post_container h3 {
+        font-size: 0.8em;
+
+    }
+
+    p{
+        font-size: 0.9em;
+    }
+    
+    img{
+        max-width: 300px;
+    }
+
+    .tags p {
+        font-size: 0.8em;
+    }
+    
+}
