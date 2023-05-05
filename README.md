@@ -1,11 +1,7 @@
 ## Projeto responsivo que apresenta um blog simulando o instagram.
 
 ### Tecnologias Utilizadas:
-React
-JavaScript
-Firebase
-HTML
-CSS
+React, JavaScript ,Firebase, HTML, CSS
 
 ### Este projeto demonstra como é possível utilizar o Firebase para criar um sistema de autenticação em um projeto React. 
 Os hooks utilizados permitem gerenciar os dados no Firebase de forma eficiente e intuitiva. Com esse sistema, é possível criar novos usuários, autenticá-los, permitir login e logout e criar posts.
